@@ -10,6 +10,7 @@
 
 #import "UIScrollView+TTTNRefresh.h" // 刷新扩展
 #import "UIView+TTTNExtension.h" // 视图扩展
+#import "NSBundle+TTTNRefresh.h" // 资源扩展
 #import "TTTNRefreshConst.h" // 配置文件
 
 /** 刷新控件的状态 */
@@ -114,7 +115,7 @@ extern const CGFloat TTTNRefreshSlowAnimationDuration;
 @property (nonatomic, assign) BOOL isAdsorption;
 
 /// 获取箭头图标
-- (UIImage *)tttn_getArrowImage;
+- (UIImage *)tttn_getArrowImage:(BOOL)isHorizontal;
 
 @end
 

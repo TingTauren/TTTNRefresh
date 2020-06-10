@@ -87,14 +87,14 @@
         NSString *time = [formatter stringFromDate:lastUpdatedTime];
         
         // 3.显示日期
-        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@%@", TTTNRefreshHeaderLastTimeText, (isToday ? TTTNRefreshHeaderDateTodayText : @""), time];
+        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@%@", TTTNRefreshLocalized(TTTNRefreshHeaderLastTimeText), (isToday ? TTTNRefreshLocalized(TTTNRefreshHeaderDateTodayText) : @""), time];
         if (self.tttn_direction == TTTNRefreshScrollDirectionHorizontal) {
-            self.lastUpdatedTimeLabel.tttn_verticalText = [NSString stringWithFormat:@"%@%@%@", TTTNRefreshHeaderLastTimeText, (isToday ? TTTNRefreshHeaderDateTodayText : @""), time];
+            self.lastUpdatedTimeLabel.tttn_verticalText = [NSString stringWithFormat:@"%@%@%@", TTTNRefreshLocalized(TTTNRefreshHeaderLastTimeText), (isToday ? TTTNRefreshLocalized(TTTNRefreshHeaderDateTodayText) : @""), time];
         }
     } else {
-        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@", TTTNRefreshHeaderLastTimeText, TTTNRefreshHeaderNoneLastDateText];
+        self.lastUpdatedTimeLabel.text = [NSString stringWithFormat:@"%@%@", TTTNRefreshLocalized(TTTNRefreshHeaderLastTimeText), TTTNRefreshLocalized(TTTNRefreshHeaderDateTodayText)];
         if (self.tttn_direction == TTTNRefreshScrollDirectionHorizontal) {
-            self.lastUpdatedTimeLabel.tttn_verticalText = [NSString stringWithFormat:@"%@%@", TTTNRefreshHeaderLastTimeText, TTTNRefreshHeaderNoneLastDateText];
+            self.lastUpdatedTimeLabel.tttn_verticalText = [NSString stringWithFormat:@"%@%@", TTTNRefreshLocalized(TTTNRefreshHeaderLastTimeText), TTTNRefreshLocalized(TTTNRefreshHeaderDateTodayText)];
         }
     }
 }
@@ -116,9 +116,9 @@
     [super tttn_prepare];
     
     // 初始化文字
-    [self tttn_setTitle:TTTNRefreshHeaderIdleText forState:TTTNRefreshStateIdle];
-    [self tttn_setTitle:TTTNRefreshHeaderPullingText forState:TTTNRefreshStatePulling];
-    [self tttn_setTitle:TTTNRefreshHeaderRefreshingText forState:TTTNRefreshStateRefreshing];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshHeaderIdleText) forState:TTTNRefreshStateIdle];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshHeaderPullingText) forState:TTTNRefreshStatePulling];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshHeaderRefreshingText) forState:TTTNRefreshStateRefreshing];
 }
 /// 设置控件位置
 - (void)tttn_placeSubviewsFrame {

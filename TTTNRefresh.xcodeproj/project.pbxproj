@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E30AFC2490CF7A0044D389 /* TTTNRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 82E30AFB2490CF7A0044D389 /* TTTNRefresh.bundle */; };
+		82E30AFF2490D0900044D389 /* NSBundle+TTTNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E30AFE2490D08F0044D389 /* NSBundle+TTTNRefresh.m */; };
+		82E30B022490D2910044D389 /* TTTNRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E30B012490D2910044D389 /* TTTNRefreshConfig.m */; };
 		82EC729B248F68D9007110F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC729A248F68D9007110F1 /* AppDelegate.m */; };
 		82EC72A1248F68D9007110F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72A0248F68D9007110F1 /* ViewController.m */; };
 		82EC72A6248F68E0007110F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EC72A5248F68E0007110F1 /* Assets.xcassets */; };
@@ -30,7 +33,6 @@
 		82EC72F5248F69EF007110F1 /* UIView+TTTNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D7248F69EE007110F1 /* UIView+TTTNExtension.m */; };
 		82EC72F6248F69EF007110F1 /* TTTNRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */; };
 		82EC72F7248F69EF007110F1 /* TTTNRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DB248F69EE007110F1 /* TTTNRefreshHeader.m */; };
-		82EC72F8248F69EF007110F1 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC72DC248F69EE007110F1 /* arrow@2x.png */; };
 		82EC72F9248F69EF007110F1 /* TTTNRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DD248F69EE007110F1 /* TTTNRefreshFooter.m */; };
 		82EC72FA248F69EF007110F1 /* TTTNRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */; };
 		82EC72FB248F69EF007110F1 /* UIScrollView+TTTNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72E2248F69EE007110F1 /* UIScrollView+TTTNRefresh.m */; };
@@ -39,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82E30AFB2490CF7A0044D389 /* TTTNRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TTTNRefresh.bundle; sourceTree = "<group>"; };
+		82E30AFD2490D08F0044D389 /* NSBundle+TTTNRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TTTNRefresh.h"; sourceTree = "<group>"; };
+		82E30AFE2490D08F0044D389 /* NSBundle+TTTNRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TTTNRefresh.m"; sourceTree = "<group>"; };
+		82E30B002490D2910044D389 /* TTTNRefreshConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshConfig.h; sourceTree = "<group>"; };
+		82E30B012490D2910044D389 /* TTTNRefreshConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshConfig.m; sourceTree = "<group>"; };
 		82EC7296248F68D9007110F1 /* TTTNRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTNRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EC7299248F68D9007110F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82EC729A248F68D9007110F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,7 +91,6 @@
 		82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBaseView.m; sourceTree = "<group>"; };
 		82EC72DA248F69EE007110F1 /* UIScrollView+TTTNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TTTNRefresh.h"; sourceTree = "<group>"; };
 		82EC72DB248F69EE007110F1 /* TTTNRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshHeader.m; sourceTree = "<group>"; };
-		82EC72DC248F69EE007110F1 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		82EC72DD248F69EE007110F1 /* TTTNRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshFooter.m; sourceTree = "<group>"; };
 		82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshConst.m; sourceTree = "<group>"; };
 		82EC72DF248F69EE007110F1 /* UIView+TTTNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTTNExtension.h"; sourceTree = "<group>"; };
@@ -212,10 +218,14 @@
 		82EC72D6248F69EE007110F1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				82EC72DC248F69EE007110F1 /* arrow@2x.png */,
+				82E30AFD2490D08F0044D389 /* NSBundle+TTTNRefresh.h */,
+				82E30AFE2490D08F0044D389 /* NSBundle+TTTNRefresh.m */,
+				82E30AFB2490CF7A0044D389 /* TTTNRefresh.bundle */,
 				82EC72D8248F69EE007110F1 /* TTTNRefresh.h */,
 				82EC72E3248F69EE007110F1 /* TTTNRefreshBaseView.h */,
 				82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */,
+				82E30B002490D2910044D389 /* TTTNRefreshConfig.h */,
+				82E30B012490D2910044D389 /* TTTNRefreshConfig.m */,
 				82EC72E4248F69EE007110F1 /* TTTNRefreshConst.h */,
 				82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */,
 				82EC72E0248F69EE007110F1 /* TTTNRefreshFooter.h */,
@@ -287,8 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82EC72F8248F69EF007110F1 /* arrow@2x.png in Resources */,
 				82EC72A6248F68E0007110F1 /* Assets.xcassets in Resources */,
+				82E30AFC2490CF7A0044D389 /* TTTNRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +317,7 @@
 				82EC72E9248F69EF007110F1 /* TTTNRefreshBackNormalFooter.m in Sources */,
 				82EC72FA248F69EF007110F1 /* TTTNRefreshConst.m in Sources */,
 				82EC72F2248F69EF007110F1 /* TTTNRefreshBackNormalHeader.m in Sources */,
+				82E30AFF2490D0900044D389 /* NSBundle+TTTNRefresh.m in Sources */,
 				82EC72F6248F69EF007110F1 /* TTTNRefreshBaseView.m in Sources */,
 				82EC72F4248F69EF007110F1 /* TTTNRefreshBackGifHeader.m in Sources */,
 				82EC729B248F68D9007110F1 /* AppDelegate.m in Sources */,
@@ -321,6 +332,7 @@
 				82EC72EA248F69EF007110F1 /* TTTNRefreshAutoFooter.m in Sources */,
 				82EC72F9248F69EF007110F1 /* TTTNRefreshFooter.m in Sources */,
 				82EC72F1248F69EF007110F1 /* TTTNRefreshAutoNormalHeader.m in Sources */,
+				82E30B022490D2910044D389 /* TTTNRefreshConfig.m in Sources */,
 				82EC72EE248F69EF007110F1 /* TTTNRefreshAutoStateHeader.m in Sources */,
 				82EC72F3248F69EF007110F1 /* TTTNRefreshAutoHeader.m in Sources */,
 				82EC72FE248F6C79007110F1 /* TTTNNextTableController.m in Sources */,

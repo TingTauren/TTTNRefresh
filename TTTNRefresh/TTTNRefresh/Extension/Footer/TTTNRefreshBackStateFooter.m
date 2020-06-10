@@ -52,10 +52,10 @@
     [super tttn_prepare];
     
     // 初始化文字
-    [self tttn_setTitle:TTTNRefreshBackFooterIdleText forState:TTTNRefreshStateIdle];
-    [self tttn_setTitle:TTTNRefreshBackFooterPullingText forState:TTTNRefreshStatePulling];
-    [self tttn_setTitle:TTTNRefreshBackFooterRefreshingText forState:TTTNRefreshStateRefreshing];
-    [self tttn_setTitle:TTTNRefreshBackFooterNoMoreDataText forState:TTTNRefreshStateNoMoreData];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshHeaderIdleText) forState:TTTNRefreshStateIdle];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshBackFooterPullingText) forState:TTTNRefreshStatePulling];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshBackFooterRefreshingText) forState:TTTNRefreshStateRefreshing];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshBackFooterNoMoreDataText) forState:TTTNRefreshStateNoMoreData];
 }
 /// 设置控件位置
 - (void)tttn_placeSubviewsFrame {

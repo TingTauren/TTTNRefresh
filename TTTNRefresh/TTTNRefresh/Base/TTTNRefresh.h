@@ -18,6 +18,8 @@
 #import "TTTNRefreshAutoNormalFooter.h"
 #import "TTTNRefreshAutoGifFooter.h"
 
+#import "TTTNRefreshConfig.h" // 配置文件
+
 
 #define TTTN_ScreenBounds [UIScreen mainScreen].bounds
 #define TTTN_ScreenSize TTTN_ScreenBounds.size

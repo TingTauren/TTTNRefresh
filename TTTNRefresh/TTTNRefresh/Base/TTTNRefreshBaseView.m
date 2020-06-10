@@ -258,9 +258,11 @@ const CGFloat TTTNRefreshSlowAnimationDuration =
 }
 
 /// 获取箭头图标
-- (UIImage *)tttn_getArrowImage {
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"arrow@2x" ofType:@"png"];
-    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+- (UIImage *)tttn_getArrowImage:(BOOL)isHorizontal {
+    NSString *tttnRefershBoudle = @"TTTNRefresh.bundle";
+    NSString *tttnRefershPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:tttnRefershBoudle];
+    NSBundle *tttnRefreshBundle = [NSBundle bundleWithPath:tttnRefershPath];
+    UIImage *image = [UIImage imageNamed:(isHorizontal ? @"arrowHorizontal" : @"arrow") inBundle:tttnRefreshBundle compatibleWithTraitCollection:nil];
     image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
     return image;
 }

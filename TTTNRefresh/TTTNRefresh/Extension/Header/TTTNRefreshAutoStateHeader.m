@@ -60,9 +60,9 @@
     self.labelLeftInset = 25.0;
     
     // 初始化文字
-    [self tttn_setTitle:TTTNRefreshAutoFooterIdleText forState:TTTNRefreshStateIdle];
-    [self tttn_setTitle:TTTNRefreshAutoFooterRefreshingText forState:TTTNRefreshStateRefreshing];
-    [self tttn_setTitle:TTTNRefreshAutoFooterNoMoreDataText forState:TTTNRefreshStateNoMoreData];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshAutoFooterIdleText) forState:TTTNRefreshStateIdle];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshAutoFooterRefreshingText) forState:TTTNRefreshStateRefreshing];
+    [self tttn_setTitle:TTTNRefreshLocalized(TTTNRefreshAutoFooterNoMoreDataText) forState:TTTNRefreshStateNoMoreData];
     
     // 监听label
     self.stateLabel.userInteractionEnabled = YES;

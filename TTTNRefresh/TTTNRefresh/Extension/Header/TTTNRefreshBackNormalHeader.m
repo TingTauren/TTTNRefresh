@@ -21,7 +21,7 @@
 - (UIImageView *)arrowView {
     if (_arrowView) return _arrowView;
     _arrowView = [[UIImageView alloc] init];
-    _arrowView.image = [self tttn_getArrowImage];
+    _arrowView.image = [self tttn_getArrowImage:(self.tttn_direction == TTTNRefreshScrollDirectionHorizontal)];
     [self addSubview:_arrowView];
     return _arrowView;
 }
@@ -36,6 +36,11 @@
     _activityIndicatorViewStyle = activityIndicatorViewStyle;
     self.loadingView = nil;
     [self setNeedsLayout];
+}
+- (void)setTttn_direction:(TTTNRefreshScrollDirection)tttn_direction {
+    [super setTttn_direction:tttn_direction];
+    
+    _arrowView.image = [self tttn_getArrowImage:(self.tttn_direction == TTTNRefreshScrollDirectionHorizontal)];
 }
 - (void)setState:(TTTNRefreshState)state {
     TTTNRefreshCheckState
