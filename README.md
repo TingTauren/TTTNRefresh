@@ -3,9 +3,9 @@
 
  因为项目中需要一些刷新效果(横向自动刷新)，本来项目中就用的MJRefresh,然后就想为什么MJRefresh没有</br>
  基于这样的情况下,照着MJRefresh的源码重新手写一遍,了解了大致原理，然后扩展了一些属性和效果</br>
-![PNG](https://github.com/TingTauren/TTTNWaterFlowLayoyt/blob/master/Apr-26-2020%2014-46-41.gif)
-![PNG](https://github.com/TingTauren/TTTNWaterFlowLayoyt/blob/master/Apr-26-2020%2014-46-41.gif)
-![PNG](https://github.com/TingTauren/TTTNWaterFlowLayoyt/blob/master/Apr-26-2020%2014-46-41.gif)
+![PNG](https://github.com/TingTauren/TTTNRefresh/blob/master/home.png)
+![PNG](https://github.com/TingTauren/TTTNRefresh/blob/master/adsorption.png)
+![PNG](https://github.com/TingTauren/TTTNRefresh/blob/master/horizontal.png)
  </br>
  1、扩展了横向滑动属性，支持横向滚动下拉刷新和上拉加载更多</br>
  </br>
