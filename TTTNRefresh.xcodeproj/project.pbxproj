@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EC729B248F68D9007110F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC729A248F68D9007110F1 /* AppDelegate.m */; };
+		82EC72A1248F68D9007110F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72A0248F68D9007110F1 /* ViewController.m */; };
+		82EC72A6248F68E0007110F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EC72A5248F68E0007110F1 /* Assets.xcassets */; };
+		82EC72AC248F68E0007110F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72AB248F68E0007110F1 /* main.m */; };
+		82EC72E5248F69EF007110F1 /* TTTNRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72B6248F69EE007110F1 /* TTTNRefreshBackStateFooter.m */; };
+		82EC72E6248F69EF007110F1 /* TTTNRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72BB248F69EE007110F1 /* TTTNRefreshAutoStateFooter.m */; };
+		82EC72E7248F69EF007110F1 /* TTTNRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72BC248F69EE007110F1 /* TTTNRefreshBackFooter.m */; };
+		82EC72E8248F69EF007110F1 /* TTTNRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72BD248F69EE007110F1 /* TTTNRefreshAutoGifFooter.m */; };
+		82EC72E9248F69EF007110F1 /* TTTNRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72BF248F69EE007110F1 /* TTTNRefreshBackNormalFooter.m */; };
+		82EC72EA248F69EF007110F1 /* TTTNRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72C0248F69EE007110F1 /* TTTNRefreshAutoFooter.m */; };
+		82EC72EB248F69EF007110F1 /* TTTNRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72C1248F69EE007110F1 /* TTTNRefreshAutoNormalFooter.m */; };
+		82EC72EC248F69EF007110F1 /* TTTNRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72C4248F69EE007110F1 /* TTTNRefreshBackGifFooter.m */; };
+		82EC72ED248F69EF007110F1 /* TTTNRefreshBackStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72C6248F69EE007110F1 /* TTTNRefreshBackStateHeader.m */; };
+		82EC72EE248F69EF007110F1 /* TTTNRefreshAutoStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72CB248F69EE007110F1 /* TTTNRefreshAutoStateHeader.m */; };
+		82EC72EF248F69EF007110F1 /* TTTNRefreshBackHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72CC248F69EE007110F1 /* TTTNRefreshBackHeader.m */; };
+		82EC72F0248F69EF007110F1 /* TTTNRefreshAutoGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72CF248F69EE007110F1 /* TTTNRefreshAutoGifHeader.m */; };
+		82EC72F1248F69EF007110F1 /* TTTNRefreshAutoNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D0248F69EE007110F1 /* TTTNRefreshAutoNormalHeader.m */; };
+		82EC72F2248F69EF007110F1 /* TTTNRefreshBackNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D1248F69EE007110F1 /* TTTNRefreshBackNormalHeader.m */; };
+		82EC72F3248F69EF007110F1 /* TTTNRefreshAutoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D2248F69EE007110F1 /* TTTNRefreshAutoHeader.m */; };
+		82EC72F4248F69EF007110F1 /* TTTNRefreshBackGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D3248F69EE007110F1 /* TTTNRefreshBackGifHeader.m */; };
+		82EC72F5248F69EF007110F1 /* UIView+TTTNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D7248F69EE007110F1 /* UIView+TTTNExtension.m */; };
+		82EC72F6248F69EF007110F1 /* TTTNRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */; };
+		82EC72F7248F69EF007110F1 /* TTTNRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DB248F69EE007110F1 /* TTTNRefreshHeader.m */; };
+		82EC72F8248F69EF007110F1 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EC72DC248F69EE007110F1 /* arrow@2x.png */; };
+		82EC72F9248F69EF007110F1 /* TTTNRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DD248F69EE007110F1 /* TTTNRefreshFooter.m */; };
+		82EC72FA248F69EF007110F1 /* TTTNRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */; };
+		82EC72FB248F69EF007110F1 /* UIScrollView+TTTNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72E2248F69EE007110F1 /* UIScrollView+TTTNRefresh.m */; };
+		82EC72FE248F6C79007110F1 /* TTTNNextTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC72FD248F6C79007110F1 /* TTTNNextTableController.m */; };
+		82EC7301248F7584007110F1 /* TTTNNextCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EC7300248F7584007110F1 /* TTTNNextCollectionController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82EC7296248F68D9007110F1 /* TTTNRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTNRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EC7299248F68D9007110F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82EC729A248F68D9007110F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82EC729F248F68D9007110F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82EC72A0248F68D9007110F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82EC72A5248F68E0007110F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EC72AA248F68E0007110F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EC72AB248F68E0007110F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82EC72B5248F69EE007110F1 /* TTTNRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		82EC72B6248F69EE007110F1 /* TTTNRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		82EC72B7248F69EE007110F1 /* TTTNRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		82EC72B8248F69EE007110F1 /* TTTNRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		82EC72B9248F69EE007110F1 /* TTTNRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoFooter.h; sourceTree = "<group>"; };
+		82EC72BA248F69EE007110F1 /* TTTNRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		82EC72BB248F69EE007110F1 /* TTTNRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		82EC72BC248F69EE007110F1 /* TTTNRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackFooter.m; sourceTree = "<group>"; };
+		82EC72BD248F69EE007110F1 /* TTTNRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		82EC72BE248F69EE007110F1 /* TTTNRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		82EC72BF248F69EE007110F1 /* TTTNRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		82EC72C0248F69EE007110F1 /* TTTNRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoFooter.m; sourceTree = "<group>"; };
+		82EC72C1248F69EE007110F1 /* TTTNRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		82EC72C2248F69EE007110F1 /* TTTNRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackFooter.h; sourceTree = "<group>"; };
+		82EC72C3248F69EE007110F1 /* TTTNRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		82EC72C4248F69EE007110F1 /* TTTNRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		82EC72C6248F69EE007110F1 /* TTTNRefreshBackStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackStateHeader.m; sourceTree = "<group>"; };
+		82EC72C7248F69EE007110F1 /* TTTNRefreshAutoGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoGifHeader.h; sourceTree = "<group>"; };
+		82EC72C8248F69EE007110F1 /* TTTNRefreshBackNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackNormalHeader.h; sourceTree = "<group>"; };
+		82EC72C9248F69EE007110F1 /* TTTNRefreshAutoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoHeader.h; sourceTree = "<group>"; };
+		82EC72CA248F69EE007110F1 /* TTTNRefreshAutoNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoNormalHeader.h; sourceTree = "<group>"; };
+		82EC72CB248F69EE007110F1 /* TTTNRefreshAutoStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoStateHeader.m; sourceTree = "<group>"; };
+		82EC72CC248F69EE007110F1 /* TTTNRefreshBackHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackHeader.m; sourceTree = "<group>"; };
+		82EC72CD248F69EE007110F1 /* TTTNRefreshBackGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackGifHeader.h; sourceTree = "<group>"; };
+		82EC72CE248F69EE007110F1 /* TTTNRefreshBackStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackStateHeader.h; sourceTree = "<group>"; };
+		82EC72CF248F69EE007110F1 /* TTTNRefreshAutoGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoGifHeader.m; sourceTree = "<group>"; };
+		82EC72D0248F69EE007110F1 /* TTTNRefreshAutoNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoNormalHeader.m; sourceTree = "<group>"; };
+		82EC72D1248F69EE007110F1 /* TTTNRefreshBackNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackNormalHeader.m; sourceTree = "<group>"; };
+		82EC72D2248F69EE007110F1 /* TTTNRefreshAutoHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshAutoHeader.m; sourceTree = "<group>"; };
+		82EC72D3248F69EE007110F1 /* TTTNRefreshBackGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBackGifHeader.m; sourceTree = "<group>"; };
+		82EC72D4248F69EE007110F1 /* TTTNRefreshBackHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBackHeader.h; sourceTree = "<group>"; };
+		82EC72D5248F69EE007110F1 /* TTTNRefreshAutoStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshAutoStateHeader.h; sourceTree = "<group>"; };
+		82EC72D7248F69EE007110F1 /* UIView+TTTNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTTNExtension.m"; sourceTree = "<group>"; };
+		82EC72D8248F69EE007110F1 /* TTTNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefresh.h; sourceTree = "<group>"; };
+		82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshBaseView.m; sourceTree = "<group>"; };
+		82EC72DA248F69EE007110F1 /* UIScrollView+TTTNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TTTNRefresh.h"; sourceTree = "<group>"; };
+		82EC72DB248F69EE007110F1 /* TTTNRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshHeader.m; sourceTree = "<group>"; };
+		82EC72DC248F69EE007110F1 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		82EC72DD248F69EE007110F1 /* TTTNRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshFooter.m; sourceTree = "<group>"; };
+		82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTNRefreshConst.m; sourceTree = "<group>"; };
+		82EC72DF248F69EE007110F1 /* UIView+TTTNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTTNExtension.h"; sourceTree = "<group>"; };
+		82EC72E0248F69EE007110F1 /* TTTNRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshFooter.h; sourceTree = "<group>"; };
+		82EC72E1248F69EE007110F1 /* TTTNRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshHeader.h; sourceTree = "<group>"; };
+		82EC72E2248F69EE007110F1 /* UIScrollView+TTTNRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TTTNRefresh.m"; sourceTree = "<group>"; };
+		82EC72E3248F69EE007110F1 /* TTTNRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshBaseView.h; sourceTree = "<group>"; };
+		82EC72E4248F69EE007110F1 /* TTTNRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTNRefreshConst.h; sourceTree = "<group>"; };
+		82EC72FC248F6C79007110F1 /* TTTNNextTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTNNextTableController.h; sourceTree = "<group>"; };
+		82EC72FD248F6C79007110F1 /* TTTNNextTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNNextTableController.m; sourceTree = "<group>"; };
+		82EC72FF248F7584007110F1 /* TTTNNextCollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTNNextCollectionController.h; sourceTree = "<group>"; };
+		82EC7300248F7584007110F1 /* TTTNNextCollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTNNextCollectionController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EC7293248F68D9007110F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EC728D248F68D9007110F1 = {
+			isa = PBXGroup;
+			children = (
+				82EC7298248F68D9007110F1 /* TTTNRefresh */,
+				82EC7297248F68D9007110F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EC7297248F68D9007110F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EC7296248F68D9007110F1 /* TTTNRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EC7298248F68D9007110F1 /* TTTNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72B2248F69EE007110F1 /* TTTNRefresh */,
+				82EC7299248F68D9007110F1 /* AppDelegate.h */,
+				82EC729A248F68D9007110F1 /* AppDelegate.m */,
+				82EC729F248F68D9007110F1 /* ViewController.h */,
+				82EC72A0248F68D9007110F1 /* ViewController.m */,
+				82EC72FC248F6C79007110F1 /* TTTNNextTableController.h */,
+				82EC72FD248F6C79007110F1 /* TTTNNextTableController.m */,
+				82EC72FF248F7584007110F1 /* TTTNNextCollectionController.h */,
+				82EC7300248F7584007110F1 /* TTTNNextCollectionController.m */,
+				82EC72A5248F68E0007110F1 /* Assets.xcassets */,
+				82EC72AA248F68E0007110F1 /* Info.plist */,
+				82EC72AB248F68E0007110F1 /* main.m */,
+			);
+			path = TTTNRefresh;
+			sourceTree = "<group>";
+		};
+		82EC72B2248F69EE007110F1 /* TTTNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72D6248F69EE007110F1 /* Base */,
+				82EC72B3248F69EE007110F1 /* Extension */,
+			);
+			path = TTTNRefresh;
+			sourceTree = "<group>";
+		};
+		82EC72B3248F69EE007110F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72B4248F69EE007110F1 /* Footer */,
+				82EC72C5248F69EE007110F1 /* Header */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		82EC72B4248F69EE007110F1 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72B9248F69EE007110F1 /* TTTNRefreshAutoFooter.h */,
+				82EC72C0248F69EE007110F1 /* TTTNRefreshAutoFooter.m */,
+				82EC72B5248F69EE007110F1 /* TTTNRefreshAutoGifFooter.h */,
+				82EC72BD248F69EE007110F1 /* TTTNRefreshAutoGifFooter.m */,
+				82EC72B7248F69EE007110F1 /* TTTNRefreshAutoNormalFooter.h */,
+				82EC72C1248F69EE007110F1 /* TTTNRefreshAutoNormalFooter.m */,
+				82EC72C3248F69EE007110F1 /* TTTNRefreshAutoStateFooter.h */,
+				82EC72BB248F69EE007110F1 /* TTTNRefreshAutoStateFooter.m */,
+				82EC72C2248F69EE007110F1 /* TTTNRefreshBackFooter.h */,
+				82EC72BC248F69EE007110F1 /* TTTNRefreshBackFooter.m */,
+				82EC72BA248F69EE007110F1 /* TTTNRefreshBackGifFooter.h */,
+				82EC72C4248F69EE007110F1 /* TTTNRefreshBackGifFooter.m */,
+				82EC72B8248F69EE007110F1 /* TTTNRefreshBackNormalFooter.h */,
+				82EC72BF248F69EE007110F1 /* TTTNRefreshBackNormalFooter.m */,
+				82EC72BE248F69EE007110F1 /* TTTNRefreshBackStateFooter.h */,
+				82EC72B6248F69EE007110F1 /* TTTNRefreshBackStateFooter.m */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		82EC72C5248F69EE007110F1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72C7248F69EE007110F1 /* TTTNRefreshAutoGifHeader.h */,
+				82EC72CF248F69EE007110F1 /* TTTNRefreshAutoGifHeader.m */,
+				82EC72C9248F69EE007110F1 /* TTTNRefreshAutoHeader.h */,
+				82EC72D2248F69EE007110F1 /* TTTNRefreshAutoHeader.m */,
+				82EC72CA248F69EE007110F1 /* TTTNRefreshAutoNormalHeader.h */,
+				82EC72D0248F69EE007110F1 /* TTTNRefreshAutoNormalHeader.m */,
+				82EC72D5248F69EE007110F1 /* TTTNRefreshAutoStateHeader.h */,
+				82EC72CB248F69EE007110F1 /* TTTNRefreshAutoStateHeader.m */,
+				82EC72CD248F69EE007110F1 /* TTTNRefreshBackGifHeader.h */,
+				82EC72D3248F69EE007110F1 /* TTTNRefreshBackGifHeader.m */,
+				82EC72D4248F69EE007110F1 /* TTTNRefreshBackHeader.h */,
+				82EC72CC248F69EE007110F1 /* TTTNRefreshBackHeader.m */,
+				82EC72C8248F69EE007110F1 /* TTTNRefreshBackNormalHeader.h */,
+				82EC72D1248F69EE007110F1 /* TTTNRefreshBackNormalHeader.m */,
+				82EC72CE248F69EE007110F1 /* TTTNRefreshBackStateHeader.h */,
+				82EC72C6248F69EE007110F1 /* TTTNRefreshBackStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		82EC72D6248F69EE007110F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				82EC72DC248F69EE007110F1 /* arrow@2x.png */,
+				82EC72D8248F69EE007110F1 /* TTTNRefresh.h */,
+				82EC72E3248F69EE007110F1 /* TTTNRefreshBaseView.h */,
+				82EC72D9248F69EE007110F1 /* TTTNRefreshBaseView.m */,
+				82EC72E4248F69EE007110F1 /* TTTNRefreshConst.h */,
+				82EC72DE248F69EE007110F1 /* TTTNRefreshConst.m */,
+				82EC72E0248F69EE007110F1 /* TTTNRefreshFooter.h */,
+				82EC72DD248F69EE007110F1 /* TTTNRefreshFooter.m */,
+				82EC72E1248F69EE007110F1 /* TTTNRefreshHeader.h */,
+				82EC72DB248F69EE007110F1 /* TTTNRefreshHeader.m */,
+				82EC72DA248F69EE007110F1 /* UIScrollView+TTTNRefresh.h */,
+				82EC72E2248F69EE007110F1 /* UIScrollView+TTTNRefresh.m */,
+				82EC72DF248F69EE007110F1 /* UIView+TTTNExtension.h */,
+				82EC72D7248F69EE007110F1 /* UIView+TTTNExtension.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EC7295248F68D9007110F1 /* TTTNRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EC72AF248F68E0007110F1 /* Build configuration list for PBXNativeTarget "TTTNRefresh" */;
+			buildPhases = (
+				82EC7292248F68D9007110F1 /* Sources */,
+				82EC7293248F68D9007110F1 /* Frameworks */,
+				82EC7294248F68D9007110F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTNRefresh;
+			productName = TTTNRefresh;
+			productReference = 82EC7296248F68D9007110F1 /* TTTNRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EC728E248F68D9007110F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = TTTN;
+				TargetAttributes = {
+					82EC7295248F68D9007110F1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 82EC7291248F68D9007110F1 /* Build configuration list for PBXProject "TTTNRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EC728D248F68D9007110F1;
+			productRefGroup = 82EC7297248F68D9007110F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EC7295248F68D9007110F1 /* TTTNRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EC7294248F68D9007110F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC72F8248F69EF007110F1 /* arrow@2x.png in Resources */,
+				82EC72A6248F68E0007110F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EC7292248F68D9007110F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC72EC248F69EF007110F1 /* TTTNRefreshBackGifFooter.m in Sources */,
+				82EC72EF248F69EF007110F1 /* TTTNRefreshBackHeader.m in Sources */,
+				82EC72A1248F68D9007110F1 /* ViewController.m in Sources */,
+				82EC72FB248F69EF007110F1 /* UIScrollView+TTTNRefresh.m in Sources */,
+				82EC72E5248F69EF007110F1 /* TTTNRefreshBackStateFooter.m in Sources */,
+				82EC72E9248F69EF007110F1 /* TTTNRefreshBackNormalFooter.m in Sources */,
+				82EC72FA248F69EF007110F1 /* TTTNRefreshConst.m in Sources */,
+				82EC72F2248F69EF007110F1 /* TTTNRefreshBackNormalHeader.m in Sources */,
+				82EC72F6248F69EF007110F1 /* TTTNRefreshBaseView.m in Sources */,
+				82EC72F4248F69EF007110F1 /* TTTNRefreshBackGifHeader.m in Sources */,
+				82EC729B248F68D9007110F1 /* AppDelegate.m in Sources */,
+				82EC72F5248F69EF007110F1 /* UIView+TTTNExtension.m in Sources */,
+				82EC72E6248F69EF007110F1 /* TTTNRefreshAutoStateFooter.m in Sources */,
+				82EC72F0248F69EF007110F1 /* TTTNRefreshAutoGifHeader.m in Sources */,
+				82EC72F7248F69EF007110F1 /* TTTNRefreshHeader.m in Sources */,
+				82EC72AC248F68E0007110F1 /* main.m in Sources */,
+				82EC72ED248F69EF007110F1 /* TTTNRefreshBackStateHeader.m in Sources */,
+				82EC72E7248F69EF007110F1 /* TTTNRefreshBackFooter.m in Sources */,
+				82EC7301248F7584007110F1 /* TTTNNextCollectionController.m in Sources */,
+				82EC72EA248F69EF007110F1 /* TTTNRefreshAutoFooter.m in Sources */,
+				82EC72F9248F69EF007110F1 /* TTTNRefreshFooter.m in Sources */,
+				82EC72F1248F69EF007110F1 /* TTTNRefreshAutoNormalHeader.m in Sources */,
+				82EC72EE248F69EF007110F1 /* TTTNRefreshAutoStateHeader.m in Sources */,
+				82EC72F3248F69EF007110F1 /* TTTNRefreshAutoHeader.m in Sources */,
+				82EC72FE248F6C79007110F1 /* TTTNNextTableController.m in Sources */,
+				82EC72EB248F69EF007110F1 /* TTTNRefreshAutoNormalFooter.m in Sources */,
+				82EC72E8248F69EF007110F1 /* TTTNRefreshAutoGifFooter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82EC72AD248F68E0007110F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82EC72AE248F68E0007110F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EC72B0248F68E0007110F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G95EE3W64;
+				INFOPLIST_FILE = TTTNRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helper.TTTNTestCalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82EC72B1248F68E0007110F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G95EE3W64;
+				INFOPLIST_FILE = TTTNRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helper.TTTNTestCalendarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EC7291248F68D9007110F1 /* Build configuration list for PBXProject "TTTNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EC72AD248F68E0007110F1 /* Debug */,
+				82EC72AE248F68E0007110F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EC72AF248F68E0007110F1 /* Build configuration list for PBXNativeTarget "TTTNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EC72B0248F68E0007110F1 /* Debug */,
+				82EC72B1248F68E0007110F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EC728E248F68D9007110F1 /* Project object */;
+}
