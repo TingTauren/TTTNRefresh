@@ -99,7 +99,7 @@ extern const CGFloat TTTNRefreshSlowAnimationDuration;
 /** 结束刷新的回调 */
 @property (copy, nonatomic) dispatch_block_t endRefreshingCompletionBlock;
 /** 是否正在刷新 */
-@property (nonatomic, readonly, assign, getter=isRefreshing) BOOL refershing;
+@property (nonatomic, readonly, assign, getter=isRefreshing) BOOL refreshing;
 
 #pragma mark ----- Other
 /** 拉拽的百分比(交给子类重写) */

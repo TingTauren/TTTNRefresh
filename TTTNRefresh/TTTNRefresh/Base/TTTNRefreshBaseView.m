@@ -193,7 +193,28 @@ const CGFloat TTTNRefreshSlowAnimationDuration =
     self.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.0];
 }
 /// 摆放子控件frame
-- (void)tttn_placeSubviewsFrame {}
+- (void)tttn_placeSubviewsFrame {
+    if (_tttn_direction == TTTNRefreshScrollDirectionVertical) {
+        // 设置宽度
+        self.tttn_w = _scrollView.tttn_w;
+        // 设置位置
+        self.tttn_x = -_scrollView.tttn_insetL;
+        // 设置永远支持垂直弹簧效果
+        _scrollView.alwaysBounceVertical = YES;
+        // 设置永远支持水平弹簧效果
+        _scrollView.alwaysBounceHorizontal = NO;
+    }
+    else {
+        // 设置高度
+        self.tttn_h = _scrollView.tttn_h;
+        // 设置位置
+        self.tttn_y = -_scrollView.tttn_insetT;
+        // 设置永远支持垂直弹簧效果
+        _scrollView.alwaysBounceVertical = NO;
+        // 设置永远支持水平弹簧效果
+        _scrollView.alwaysBounceHorizontal = YES;
+    }
+}
 /// 当scrollView的contentSize发生改变的时候调用
 - (void)scrollViewContentSizeDidChange:(NSDictionary *)change {}
 /// 当scrollView的contentOffset发生改变的时候调用
